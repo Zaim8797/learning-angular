@@ -1,0 +1,20 @@
+button {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;     /* Stack elements vertically */
+    //justify-content: center;    /* Center vertically */
+    align-items: center;        /* Center horizontally */
+}
+
+/* Button container to align buttons side by side */
+.btn-container {
+    display: flex;
+    justify-content: center;    /* Center buttons horizontally */
+    margin-bottom: 50px;        /* Space below buttons */
+    gap: 10px;
+    padding: 10px;
+}

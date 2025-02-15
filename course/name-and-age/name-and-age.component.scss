@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    font-size: 50px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;     /* Stack elements vertically */
+    //justify-content: center;    /* Center vertically */
+    align-items: center;        /* Center horizontally */
+}
+
+/* Button container to align buttons side by side */
+.btn-container {
+    display: flex;
+    justify-content: center;    /* Center buttons horizontally */
+    margin-bottom: 20px;        /* Space below buttons */
+    gap: 10px;
+    padding: 10px;
+}
+
+// font-size: 15px;
+// width: 200px;             /* Fixed width for horizontal uniformity */
+// height: 100px;            /* Fixed height for vertical uniformity */
+// text-align: center;       /* Center the text inside the button */
+// padding: 10px;            /* Adjust padding */
+// border-radius: 12px;
+// transition-duration: 0.4s;
+// font-family: "Audiowide", sans-serif;
+// display: flex;            /* Enable flexbox on buttons */
+// justify-content: center;  /* Center the text horizontally */
+// align-items: center;      /* Center the text vertically */

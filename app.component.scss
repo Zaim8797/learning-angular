@@ -1,0 +1,77 @@
+header {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.font1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+/* This container will center the buttons and input field */
+.center-container {
+    display: flex;
+    flex-direction: column;     /* Stack elements vertically */
+    //justify-content: center;    /* Center vertically */
+    align-items: center;        /* Center horizontally */
+    //height: 100vh;              /* Full viewport height */
+}
+
+/* Button container to align buttons side by side */
+.btn-container {
+    display: flex;
+    justify-content: center;    /* Center buttons horizontally */
+    margin-bottom: 20px;        /* Space below buttons */
+}
+
+.btn {
+    font-size: 1.25rem;
+    //margin: 0 10px;             /* Space between buttons */
+    padding: 5px 20px;         /* Button padding */
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    background-color: red; //button color
+    color: white; //text color
+}
+
+/* Input field styling */
+input {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    height: 25px;
+    width: 300px;               /* Set a fixed width for the input */
+    border-radius: 12px;
+    //margin-bottom: 15px;        /* Add space below the input field */
+}
+
+/* Footer styling */
+footer {
+    color: red;
+    background: black;
+    text-align: center;
+    margin-top: -4px;
+    font-family: "Audiowide", sans-serif;
+}
+
+div {
+    margin-top: 10px;
+}
+
+

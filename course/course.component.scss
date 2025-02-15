@@ -1,0 +1,88 @@
+/* Styles for the <p> element */
+p {
+    /* Text styling */
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    
+    /* Background image */
+    background-image: url('https://wallpapers.com/images/hd/angular-paint-splash-logo-85vhooptaw06gumk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Box properties */
+    height: 100px;
+    width: 100%; /* Ensures it spans full width of the container */
+    border-radius: 12px;
+    
+    /* Flexbox for centering text inside the p element */
+    display: flex;
+    justify-content: center; /* Horizontally centers the text */
+    align-items: center; /* Vertically centers the text */
+}
+
+.center-container {
+    display: flex;
+    flex-direction: row;       /* Align elements in a row */
+    justify-content: center;   /* Center buttons horizontally */
+    align-items: center;       /* Center buttons vertically */
+    gap: 10px;                 /* Add space between buttons */
+    flex-wrap: wrap;           /* Wrap buttons if the screen is small */
+}
+
+.tot-btn-1, .tot-btn-2, .tot-btn-3, .tot-btn-4, .tot-btn-5, .tot-btn-6, .tot-btn-7, .tot-btn-8 {
+    font-size: 15px;
+    width: 200px;             /* Fixed width for horizontal uniformity */
+    height: 100px;            /* Fixed height for vertical uniformity */
+    text-align: center;       /* Center the text inside the button */
+    padding: 10px;            /* Adjust padding */
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: "Audiowide", sans-serif;
+    display: flex;            /* Enable flexbox on buttons */
+    justify-content: center;  /* Center the text horizontally */
+    align-items: center;      /* Center the text vertically */
+    margin-bottom: 50px;
+}
+
+.tot-btn-1:hover{
+    background-color: purple; //button color
+    color: white; //text color
+}
+
+.tot-btn-2:hover{
+    background-color: orange; //button color
+    color: white; //text color
+}
+
+.tot-btn-3:hover{
+    background-color: tomato; //button color
+    color: white; //text color
+}
+
+.tot-btn-4:hover{
+    background-color: slateblue; //button color
+    color: white; //text color
+}
+
+.tot-btn-5:hover{
+    background-color: violet; //button color
+    color: white; //text color
+}
+
+.tot-btn-6:hover{
+    background-color: mediumseagreen; //button color
+    color: white; //text color
+}
+
+.tot-btn-7:hover{
+    background-color: dodgerblue; //button color
+    color: white; //text color
+}
+
+.tot-btn-8:hover{
+    background-color: red; //button color
+    color: white; //text color
+}

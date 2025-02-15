@@ -1,0 +1,37 @@
+.active{
+    background-color: rgb(0, 255, 0);
+}
+
+.no-active{
+    background-color: rgb(255, 113, 113);
+}
+
+.active-border {
+    border: 5px solid green;
+}
+
+.no-active-border {
+    border: 5px solid red;
+}
+
+button {
+    border-radius: 12px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;     /* Stack elements vertically */
+    //justify-content: center;    /* Center vertically */
+    align-items: center;        /* Center horizontally */
+}
+
+/* Button container to align buttons side by side */
+.btn-container {
+    display: flex;
+    justify-content: center;    /* Center buttons horizontally */
+    margin-bottom: 50px;        /* Space below buttons */
+    gap: 10px;
+    padding: 10px;
+}

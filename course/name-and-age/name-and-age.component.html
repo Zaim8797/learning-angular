@@ -1,0 +1,11 @@
+<h1 class="red">Hello, {{name}}. Your age is now {{umur}} years old.</h1>
+
+<div class="center-container, btn-container">
+    <h2>Edit name : </h2>
+    <input class="red" type="text" [(ngModel)]="name">
+</div>
+
+<div class="center-container, btn-container"><h2>Edit age : </h2>
+    <button class="btn" (click)="tolakUmur()">-</button>
+    <button class="btn" (click)="tambahUmur()">+</button>
+</div>
